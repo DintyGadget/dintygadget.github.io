@@ -442,7 +442,7 @@
             var output, shown, query = getQuery();
 
             currentResults = query.id;
-            output = '<h1>Results for ' + escape(query.query) +
+            output = '<h1>Результат по запросу ' + escape(query.query) +
                 (query.type ? ' (type: ' + escape(query.type) + ')' : '') + '</h1>';
             output += '<table class="search-results">';
 
@@ -678,7 +678,7 @@
         if (rootPath == '../') {
             var sidebar = $('.sidebar');
             var div = $('<div>').attr('class', 'block crate');
-            div.append($('<h2>').text('All Classes'));
+            div.append($('<h2>').text('Все классы'));
 
             var crates = [];
             for (var crate in rawSearchIndex) {
