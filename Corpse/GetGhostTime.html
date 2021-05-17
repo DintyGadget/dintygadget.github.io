@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Aura:GetOwner method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Corpse:GetGhostTime method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, trinitycore, trinity, mangos, cmangos, script, scripting, doc, docs, documentation">
 
-    <title>Aura:GetOwner - Eluna</title>
+    <title>Corpse:GetGhostTime - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
 
@@ -26,19 +26,12 @@
     <a href='../index.html'><img src='../static/eluna-logo.png' alt='Eluna Logo' width='100'></a>
     <div class="block">
         
-    <h2>Методы Аур</h2>
-    <a class="fn " href="../Aura/GetAuraId.html">GetAuraId</a>
-    <a class="fn " href="../Aura/GetCaster.html">GetCaster</a>
-    <a class="fn " href="../Aura/GetCasterGUID.html">GetCasterGUID</a>
-    <a class="fn " href="../Aura/GetCasterLevel.html">GetCasterLevel</a>
-    <a class="fn " href="../Aura/GetDuration.html">GetDuration</a>
-    <a class="fn " href="../Aura/GetMaxDuration.html">GetMaxDuration</a>
-    <a class="fn current" href="../Aura/GetOwner.html">GetOwner</a>
-    <a class="fn " href="../Aura/GetStackAmount.html">GetStackAmount</a>
-    <a class="fn " href="../Aura/Remove.html">Remove</a>
-    <a class="fn " href="../Aura/SetDuration.html">SetDuration</a>
-    <a class="fn " href="../Aura/SetMaxDuration.html">SetMaxDuration</a>
-    <a class="fn " href="../Aura/SetStackAmount.html">SetStackAmount</a>
+    <h2>Методы Трупа</h2>
+    <a class="fn current" href="../Corpse/GetGhostTime.html">GetGhostTime</a>
+    <a class="fn " href="../Corpse/GetOwnerGUID.html">GetOwnerGUID</a>
+    <a class="fn " href="../Corpse/GetType.html">GetType</a>
+    <a class="fn " href="../Corpse/ResetGhostTime.html">ResetGhostTime</a>
+    <a class="fn " href="../Corpse/SaveToDB.html">SaveToDB</a>
 
     </div>
 </section>
@@ -57,7 +50,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Метод
-    <a class="mod" href="../Aura/index.html">Aura</a>:<a class="fn" href="../Aura/GetOwner.html">GetOwner</a>
+    <a class="mod" href="../Corpse/index.html">Corpse</a>:<a class="fn" href="../Corpse/GetGhostTime.html">GetGhostTime</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,13 +61,13 @@
 
     
     <div class='docblock'>
-        <p>Возвращает <a class="mod" href="../Unit/index.html">юнита</a> на которого была наложена <a class="mod" href="../Aura/index.html">аура</a>.</p>
+        <p>Возвращает время, когда <a class="mod" href="../Player/index.html">игрок</a> стал призраком и заспавнил <a class="mod" href="../Corpse/index.html">труп</a>.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Синопсис</a>
         </h2>
         <p>
-            <code>owner = Aura:GetOwner()</code>
+            <code>ghostTime = Corpse:GetGhostTime()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -89,8 +82,8 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a class="mod" href="../Unit/index.html">Юнит</a></strong> owner</code></dt>
-                <dd class="docblock"><em>См. Описание метода.</em></dd>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> ghostTime</code></dt>
+                <dd class="docblock"><p><em>Валидные номера</em>: целые числа от 0 до 4,294,967,295.</p></dd>
             </dl>
         </p>
     </div>

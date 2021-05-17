@@ -17,9 +17,9 @@ searchIndex["Аура"] = {
         [3, "SetStackAmount", "", "Change the amount of times the <a class=\"mod\" href=\"Aura/index.html\">Aura</a> has &#34;stacked&#34; on the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
     ],
     "paths": []
-};searchIndex["Поле битвы"] = {
+};searchIndex["Поле Битвы"] = {
     "items": [
-        [0, "", "Поле битвы", "Contains the state of a battleground, e.g. Warsong Gulch, Arathi Basin, etc."],
+        [0, "", "Поле Битвы", "Contains the state of a battleground, e.g. Warsong Gulch, Arathi Basin, etc."],
         [3, "GetAlivePlayersCountByTeam", "", "Returns the amount of alive players in the <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a> by the team ID."],
         [3, "GetBonusHonorFromKillCount", "", "Returns the bonus honor given by amount of kills in the specific <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a>."],
         [3, "GetBracketId", "", "Returns the bracket ID of the specific <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a>."],
