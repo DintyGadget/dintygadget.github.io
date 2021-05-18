@@ -1,8 +1,8 @@
 var searchIndex = {};
 
-searchIndex["Аура"] = {
+searchIndex["Aura"] = {
     "items": [
-        [0, "", "Аура", "Постоянный эффект <a class=\"mod\" href=\"Spell/index.html\">заклинания</a>, который постоянно остается на <a class=\"mod\" href=\"Unit/index.html\">юните</a> после произнесения <a class=\"mod\" href=\"Spell/index.html\">заклинания</a> при помощи каста."],
+        [0, "", "Aura", "Постоянный эффект <a class=\"mod\" href=\"Spell/index.html\">заклинания</a>, который постоянно остается на <a class=\"mod\" href=\"Unit/index.html\">юните</a> после произнесения <a class=\"mod\" href=\"Spell/index.html\">заклинания</a> при помощи каста."],
         [3, "GetAuraId", "", "Returns the ID of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> that caused this <a class=\"mod\" href=\"Aura/index.html\">Aura</a> to be applied."],
         [3, "GetCaster", "", "Returns the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> that casted the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> that caused this <a class=\"mod\" href=\"Aura/index.html\">Aura</a> to be applied."],
         [3, "GetCasterGUID", "", "Returns the GUID of the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> that casted the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> that caused this <a class=\"mod\" href=\"Aura/index.html\">Aura</a> to be applied."],
@@ -17,9 +17,9 @@ searchIndex["Аура"] = {
         [3, "SetStackAmount", "", "Change the amount of times the <a class=\"mod\" href=\"Aura/index.html\">Aura</a> has &#34;stacked&#34; on the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
     ],
     "paths": []
-};searchIndex["Поле Битвы"] = {
+};searchIndex["BattleGround"] = {
     "items": [
-        [0, "", "Поле Битвы", "Contains the state of a battleground, e.g. Warsong Gulch, Arathi Basin, etc."],
+        [0, "", "BattleGround", "Contains the state of a battleground, e.g. Warsong Gulch, Arathi Basin, etc."],
         [3, "GetAlivePlayersCountByTeam", "", "Returns the amount of alive players in the <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a> by the team ID."],
         [3, "GetBonusHonorFromKillCount", "", "Returns the bonus honor given by amount of kills in the specific <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a>."],
         [3, "GetBracketId", "", "Returns the bracket ID of the specific <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a>."],
@@ -40,9 +40,9 @@ searchIndex["Аура"] = {
         [3, "GetWinner", "", "Returns the winning team of the specific <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a>."],
     ],
     "paths": []
-};searchIndex["Труп"] = {
+};searchIndex["Corpse"] = {
     "items": [
-        [0, "", "Труп", "The remains of a <a class=\"mod\" href=\"Player/index.html\">Player</a> that has died."],
+        [0, "", "Corpse", "The remains of a <a class=\"mod\" href=\"Player/index.html\">Player</a> that has died."],
         [3, "GetGhostTime", "", "Returns the time when the <a class=\"mod\" href=\"Player/index.html\">Player</a> became a ghost and spawned this <a class=\"mod\" href=\"Corpse/index.html\">Corpse</a>."],
         [3, "GetOwnerGUID", "", "Returns the GUID of the <a class=\"mod\" href=\"Player/index.html\">Player</a> that left the <a class=\"mod\" href=\"Corpse/index.html\">Corpse</a> behind."],
         [3, "GetType", "", "Returns the [CorpseType] of a <a class=\"mod\" href=\"Corpse/index.html\">Corpse</a>."],
@@ -50,9 +50,9 @@ searchIndex["Аура"] = {
         [3, "SaveToDB", "", "Saves the <a class=\"mod\" href=\"Corpse/index.html\">Corpse</a> to the database."],
     ],
     "paths": []
-};searchIndex["Существо"] = {
+};searchIndex["Creature"] = {
     "items": [
-        [0, "", "Существо", "Non-<a class=\"mod\" href=\"Player/index.html\">Player</a> controlled <a class=\"mod\" href=\"Unit/index.html\">Unit</a>s (i.e. NPCs)."],
+        [0, "", "Creature", "Non-<a class=\"mod\" href=\"Player/index.html\">Player</a> controlled <a class=\"mod\" href=\"Unit/index.html\">Unit</a>s (i.e. NPCs)."],
         [3, "AddLootMode", "", "Adds a loot mode to the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>"],
         [3, "AttackStart", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> attack <code>target</code>."],
         [3, "CallAssistance", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> call for assistance in combat from other nearby <a class=\"mod\" href=\"Creature/index.html\">Creature</a>s."],
@@ -154,9 +154,9 @@ searchIndex["Аура"] = {
         [3, "NextRow", "", "Advances the <a class=\"mod\" href=\"ElunaQuery/index.html\">ElunaQuery</a> to the next row in the result set."],
     ],
     "paths": []
-};searchIndex["Игр. объект"] = {
+};searchIndex["GameObject"] = {
     "items": [
-        [0, "", "Игр. объект", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
+        [0, "", "GameObject", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDBTableGUIDLow", "", "Returns the guid of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> that is used as the ID in the database"],
         [3, "GetDisplayId", "", "Returns display ID of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
@@ -177,9 +177,9 @@ searchIndex["Аура"] = {
         [3, "UseDoorOrButton", "", "Activates a door or a button/lever"],
     ],
     "paths": []
-};searchIndex["Глобаль"] = {
+};searchIndex["Global"] = {
     "items": [
-        [0, "", "Глобаль", "These functions can be used anywhere at any time, including at start-up."],
+        [0, "", "Global", "These functions can be used anywhere at any time, including at start-up."],
         [3, "AddTaxiPath", "", "Adds a taxi path to a specified map, returns the used pathId."],
         [3, "AddVendorItem", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to a vendor and updates the world database."],
         [3, "AuthDBExecute", "", "Executes a SQL query on the login database."],
@@ -274,9 +274,9 @@ searchIndex["Аура"] = {
         [3, "bit_xor", "", "Performs a bitwise XOR (a ^ b)."],
     ],
     "paths": []
-};searchIndex["Группа"] = {
+};searchIndex["Group"] = {
     "items": [
-        [0, "", "Группа", "Inherits all methods from: none"],
+        [0, "", "Group", "Inherits all methods from: none"],
         [3, "AddMember", "", "Adds a new member to the <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "ConvertToRaid", "", "Converts this <a class=\"mod\" href=\"Group/index.html\">Group</a> to a raid <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
         [3, "Disband", "", "Disbands this <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
@@ -301,9 +301,9 @@ searchIndex["Аура"] = {
         [3, "SetTargetIcon", "", "Sets the target icon of an object for the <a class=\"mod\" href=\"Group/index.html\">Group</a>"],
     ],
     "paths": []
-};searchIndex["Гильдия"] = {
+};searchIndex["Guild"] = {
     "items": [
-        [0, "", "Гильдия", "Inherits all methods from: none"],
+        [0, "", "Guild", "Inherits all methods from: none"],
         [3, "AddMember", "", "Adds the specified <a class=\"mod\" href=\"Player/index.html\">Player</a> to the <a class=\"mod\" href=\"Guild/index.html\">Guild</a> at the specified rank."],
         [3, "DeleteMember", "", "Removes the specified <a class=\"mod\" href=\"Player/index.html\">Player</a> from the <a class=\"mod\" href=\"Guild/index.html\">Guild</a>."],
         [3, "Disband", "", "Disbands the <a class=\"mod\" href=\"Guild/index.html\">Guild</a>"],
@@ -322,9 +322,9 @@ searchIndex["Аура"] = {
         [3, "SetMemberRank", "", "Promotes/demotes the <a class=\"mod\" href=\"Player/index.html\">Player</a> to the specified rank."],
     ],
     "paths": []
-};searchIndex["Предмет"] = {
+};searchIndex["Item"] = {
     "items": [
-        [0, "", "Предмет", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>"],
+        [0, "", "Item", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>"],
         [3, "CanBeTraded", "", "Returns 'true' if the <a class=\"mod\" href=\"Item/index.html\">Item</a> can be traded, 'false' otherwise"],
         [3, "ClearEnchantment", "", "Removes an enchant from the <a class=\"mod\" href=\"Item/index.html\">Item</a> by the specified slot"],
         [3, "GetAllowableClass", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> classes allowed to use this <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
@@ -379,9 +379,9 @@ searchIndex["Аура"] = {
         [3, "SetOwner", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a> specified as the owner of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
     ],
     "paths": []
-};searchIndex["Карта"] = {
+};searchIndex["Map"] = {
     "items": [
-        [0, "", "Карта", "A game map, e.g. Azeroth, Eastern Kingdoms, the Molten Core, etc."],
+        [0, "", "Map", "A game map, e.g. Azeroth, Eastern Kingdoms, the Molten Core, etc."],
         [3, "GetAreaId", "", "Returns the area ID of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the specified X, Y, and Z coordinates."],
         [3, "GetDifficulty", "", "Returns the difficulty of the <a class=\"mod\" href=\"Map/index.html\">Map</a>."],
         [3, "GetHeight", "", "Returns the height of the <a class=\"mod\" href=\"Map/index.html\">Map</a> at the given X and Y coordinates."],
@@ -402,9 +402,9 @@ searchIndex["Аура"] = {
         [3, "SetWeather", "", "Sets the [Weather] type based on [WeatherType] and grade supplied."],
     ],
     "paths": []
-};searchIndex["Объект"] = {
+};searchIndex["Object"] = {
     "items": [
-        [0, "", "Объект", "A basic game object (either an <a class=\"mod\" href=\"Item/index.html\">Item</a> or a <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>)."],
+        [0, "", "Object", "A basic game object (either an <a class=\"mod\" href=\"Item/index.html\">Item</a> or a <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>)."],
         [3, "GetByteValue", "", "Returns the data at the specified index and offset, casted to an unsigned 8-bit integer."],
         [3, "GetEntry", "", "Returns the entry of the <a class=\"mod\" href=\"Object/index.html\">Object</a>."],
         [3, "GetFloatValue", "", "Returns the data at the specified index, casted to a single-precision floating point value."],
@@ -436,9 +436,9 @@ searchIndex["Аура"] = {
         [3, "UpdateUInt32Value", "", "Sets the data at the specified index to the given value, converted to an unsigned 32-bit integer."],
     ],
     "paths": []
-};searchIndex["Игрок"] = {
+};searchIndex["Player"] = {
     "items": [
-        [0, "", "Игрок", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>, <a class=\"mod\" href=\"Unit/index.html\">Unit</a>"],
+        [0, "", "Player", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>, <a class=\"mod\" href=\"Unit/index.html\">Unit</a>"],
         [3, "AddComboPoints", "", "Adds combo points to the <a class=\"mod\" href=\"Player/index.html\">Player</a>"],
         [3, "AddItem", "", "Adds the given amount of the specified item entry to the player."],
         [3, "AddLifetimeKills", "", ""],
@@ -676,9 +676,9 @@ searchIndex["Аура"] = {
         [3, "Yell", "", "Sends yell text from the <a class=\"mod\" href=\"Player/index.html\">Player</a>"],
     ],
     "paths": []
-};searchIndex["Квест"] = {
+};searchIndex["Quest"] = {
     "items": [
-        [0, "", "Квест", "Inherits all methods from: none"],
+        [0, "", "Quest", "Inherits all methods from: none"],
         [3, "GetFlags", "", "Returns the <a class=\"mod\" href=\"Quest/index.html\">Quest</a>'s flags."],
         [3, "GetId", "", "Returns entry ID of the <a class=\"mod\" href=\"Quest/index.html\">Quest</a>."],
         [3, "GetLevel", "", "Returns the <a class=\"mod\" href=\"Quest/index.html\">Quest</a>'s level."],
@@ -692,9 +692,9 @@ searchIndex["Аура"] = {
         [3, "IsRepeatable", "", "Returns 'true' if the <a class=\"mod\" href=\"Quest/index.html\">Quest</a> is repeatable, false otherwise."],
     ],
     "paths": []
-};searchIndex["Заклинание"] = {
+};searchIndex["Spell"] = {
     "items": [
-        [0, "", "Заклинание", "An instance of a spell, created when the spell is cast by a <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
+        [0, "", "Spell", "An instance of a spell, created when the spell is cast by a <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
         [3, "Cancel", "", "Cancels the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "Cast", "", "Casts the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "Finish", "", "Finishes the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
@@ -709,9 +709,9 @@ searchIndex["Аура"] = {
         [3, "SetAutoRepeat", "", "Sets the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> to automatically repeat."],
     ],
     "paths": []
-};searchIndex["Юнит"] = {
+};searchIndex["Unit"] = {
     "items": [
-        [0, "", "Юнит", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
+        [0, "", "Unit", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
         [3, "AddAura", "", "Adds the <a class=\"mod\" href=\"Aura/index.html\">Aura</a> of the given spell entry on the given target from the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
         [3, "AddThreat", "", "Adds threat to the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> from the victim."],
         [3, "AddUnitState", "", "Adds the given unit state for the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>."],
@@ -864,9 +864,9 @@ searchIndex["Аура"] = {
         [3, "StopSpellCast", "", "Stops the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s current spell cast"],
     ],
     "paths": []
-};searchIndex["Транспорт"] = {
+};searchIndex["Vehicle"] = {
     "items": [
-        [0, "", "Транспорт", "Inherits all methods from: none"],
+        [0, "", "Vehicle", "Inherits all methods from: none"],
         [3, "AddPassenger", "", "Adds <a class=\"mod\" href=\"Unit/index.html\">Unit</a> passenger to a specified seat in the <a class=\"mod\" href=\"Vehicle/index.html\">Vehicle</a>"],
         [3, "GetEntry", "", "Returns the <a class=\"mod\" href=\"Vehicle/index.html\">Vehicle</a>'s entry"],
         [3, "GetOwner", "", "Returns the <a class=\"mod\" href=\"Vehicle/index.html\">Vehicle</a>'s owner"],
